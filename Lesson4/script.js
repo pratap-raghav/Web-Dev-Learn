@@ -1,0 +1,1 @@
+alert("Click on the bookmark to open.")
