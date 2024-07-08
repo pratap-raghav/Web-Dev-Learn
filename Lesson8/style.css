@@ -1,0 +1,23 @@
+.whiteText{
+    color: white;
+}
+.grayBG{
+    background-color: gray;
+}
+.redText{
+    color: red;
+}
+.redBG{
+    background-color: red;
+}
+.yellowText{
+    color: yellow;
+}
+
+#span2{
+    background-color: rgb(6, 110, 158);
+    color: wheat;
+}
+#div3{
+    background-color: black;
+}
