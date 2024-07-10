@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(92, 92, 92);
+}
+header{
+    background-color: blueviolet;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+#p1{
+    background-color: orange;
+}
+
+.prop{
+    background-color: white;
+}
+
+span p{
+    background-color: green;
+    color: white;
+}
+
+div>p{
+    color: white;
+}
+
+footer{
+    background-color: blueviolet;
+    color: white;
+    padding: 40px;
+}
