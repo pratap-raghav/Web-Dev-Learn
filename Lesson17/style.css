@@ -1,0 +1,32 @@
+header{
+    background-color: rgb(233, 243, 175);
+    text-align: center;
+    padding: 15px;
+    color: black;
+    font-family: "BatmanForeverAlternate Regular", cursive;
+    font-size: 40px;
+    margin: 20px;
+}
+h1{
+    color: orange;
+}
+li{
+    padding: 15px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#l1{
+    background-color: pink;
+}
+#l2{
+    background-color: #dbc0ff;
+}
+#l3{
+    background-color: rgb(192, 219, 255);
+}
+#l4{
+    background-color: rgba(198, 255, 194, 1);
+}
+#l5{
+    background-color: hsl(57, 100%, 88%);
+}
