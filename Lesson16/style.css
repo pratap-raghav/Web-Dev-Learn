@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Playwrite+PE:wght@100..400&display=swap');
+body{
+    background-color: blueviolet;
+}
+.marginSet{
+    margin: 0px;
+}
+header{
+    background-color: wheat;
+    text-align: center;
+    padding: 15px;
+    border: 5px solid orange;
+    color: blueviolet;
+    font-family: "BatmanForeverAlternate Regular", cursive;
+    font-size: 40px;
+    margin: 20px;
+}
+h1{
+    font-family: "Playwrite PE", cursive;
+    font-weight: 1000;
+    margin: 20px;
+}
+p{
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-size: 18px;
+    font-weight: 1000;
+    margin: 20px;
+}
+footer{
+    background-color: wheat;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid orange;
+    color: blueviolet;
+    font-family: "BatmanForeverAlternate Regular", cursive;
+}
+.paraLine{
+    text-decoration: underline;
+}
+.whiteColor{
+    color: white;
+}
+.paraItalic{
+    font-style: italic;
+}
+.paraLineH{
+    line-height: 3;
+    font-weight: 255;
+}
+.ParaLetterSpace{
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-decoration-color: rgb(253, 130, 86);
+    text-decoration-thickness: 3px;
+}
+.paraIndent{
+    text-indent: 50px;
+    text-decoration: underline;
+    text-decoration-color: rgb(253, 130, 86);
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
+}
+.paraoverflow{
+   border: 3px solid orangered; 
+   width: 70px;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   font-weight: 255;
+}
