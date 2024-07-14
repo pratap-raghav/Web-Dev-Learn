@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 80vw;
+    height: 15vh;
+    border: 2px solid black;
+    margin: 3vw;
+    padding: 0.5vw;
+}
+.box1{
+    background-color: antiquewhite;
+}
+.box2{
+    background-color: aquamarine;
+}
+.box3{
+    background-color: palevioletred;
+}
+.box4{
+    background-color: skyblue;
+}
