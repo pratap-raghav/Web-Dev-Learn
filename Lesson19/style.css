@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 30px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-family: "BatmanForeverAlternate Regular";
+    font-size: 30px;
+    margin: 30px;
+    border: 3px solid black;
+}
+.box{
+    width: 500px;
+    /* height: 100px; */
+    box-sizing: border-box;
+    background-color: blue;
+    border: 2px solid black;
+    color: white;
+}
+#marginAuto{
+    margin: 23px auto;
+}
+
+.container{
+    width: 80vw;
+    height: 80vh;
+    box-sizing: border-box;
+    background-color: orange;
+    border: 2px solid black;
+    color: white;
+    margin: 23px auto;
+}
