@@ -1,0 +1,16 @@
+/* nav ul li{
+    list-style: "😊";
+    list-style-type: "❤️";
+    list-style-position: inside;
+    background-color: wheat;
+    border: 0.15vw solid brown;
+    margin: 0.3vw;
+    text-align: center;  
+} */
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 1vw;
+    list-style: none;
+}
