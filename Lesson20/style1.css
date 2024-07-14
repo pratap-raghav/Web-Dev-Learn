@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 2px solid orange;
+    width: 300px;
+    padding: 45px;
+    margin: 30px;
+    display: inline;
+}
+span{
+    border: 2px solid orange;
+}
+.box-ib{
+    border: 2px solid orange;
+    width: 300px;
+    display: inline-block;
+}
