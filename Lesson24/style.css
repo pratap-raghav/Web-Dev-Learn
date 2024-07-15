@@ -6,7 +6,7 @@
     margin: 3vw;
     padding: 1vw;
     border: 1px solid red;
-    position: sticky;
+    /* position: sticky; */
     /* position: absolute; */
 }
 .box{
