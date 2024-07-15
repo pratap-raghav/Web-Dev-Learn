@@ -2,21 +2,50 @@
     margin: 0;
     padding: 0;
 }
+.parent{
+    margin: 3vw;
+    padding: 1vw;
+    border: 1px solid red;
+    position: sticky;
+    /* position: absolute; */
+}
 .box{
     width: 80vw;
-    height: 15vh;
+    height: 60vh;
     border: 2px solid black;
-    margin: 3vw;
+    margin: 0.5vw;
     padding: 0.5vw;
 }
 .box1{
     background-color: antiquewhite;
+    /* position: absolute;
+    top: 0px;
+    left: 100px; */
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    left: 0vw;
+    width: 85vw;
+    height: 10vh;
 }
 .box2{
     background-color: aquamarine;
+    /* position: absolute; */
+    /* top: 0vh; */
+    /* left: 0vw; */
+    /* z-index: 1; */
 }
 .box3{
     background-color: palevioletred;
+    /* position: relative; */
+    /* z-index: 0; */
+    box-sizing: border-box;
+    position: fixed;
+    margin: 0px;
+    bottom: 0px;
+    left: 0vw;
+    width: 100vw;
+    height: 10vh;
 }
 .box4{
     background-color: skyblue;
