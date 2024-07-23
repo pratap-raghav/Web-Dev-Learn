@@ -1,12 +1,17 @@
+:root{
+    --baseColor: gray;
+    --foreColor: lightblue;
+    --bgColor: whitesmoke;
+}
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: whitesmoke;
+    background-color: var(--bgColor);
 }
 header{
-    background-color: rgb(59,59,59);
+    background-color: var(--baseColor);
     height: 2vw;
     padding: 1vw;
 }
@@ -17,7 +22,7 @@ header>img{
     height: 2vw;
 }
 nav{
-    background-color: rgb(59,59,59);
+    background-color: var(--baseColor);
     margin: 0;
     padding: 0;
     width: auto;
@@ -31,62 +36,10 @@ nav ul li{
     list-style-position: inside;
     list-style: none;
     margin: 1.5vw;
-    color: white;
+    color: var(--foreColor);
     /* border: 2px solid red; */
 }
 nav ul{
     display: flex;
-    border-top: 0.1vw solid gray;
-}
-.box{
-    margin: 0;
-    height: 30vw;
-    width: auto;
-    background-color: white;
-    border-radius: 2vw;
-    display: inline-block; 
-    padding: 0.5vw;
-    margin: 4vw;
-    box-shadow: 0 0 12px 1px gray;
-    overflow: hidden;
-    position: relative;
-}
-.imageCard{
-    border-radius: 1.5vw;
-    overflow: hidden;
-}
-.box img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 18vw;
-}
-.cardTag{
-    display: inline-block; 
-    margin: 0.2vw;
-    margin-top: 0.8vw;
-    border: 1px solid gray;
-    color: gray;
-    padding: 0.3vw;
-    padding-left: 0.7vw;
-    padding-right: 0.7vw;
-    border-radius: 1vw;
-}
-.cardText{
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    width: 18vw;
-}
-.cardButton{
-    display: flex;
-    justify-content: center;
-    margin: 2vw;
-}
-.cardButton button{
-    width: 6vw;
-    height: 2.5vw;
-    border-radius: 2.5vw;
-    background-color: rgb(224, 239, 255);
-    color: rgb(103, 174, 255);
-    border: none;
+    border-top: 0.1vw solid var(--bgColor);
 }
