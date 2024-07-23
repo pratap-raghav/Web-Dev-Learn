@@ -1,7 +1,8 @@
+/* Variable Exercise */
 :root{
-    --baseColor: gray;
+    --baseColor: black;
     --foreColor: lightblue;
-    --bgColor: whitesmoke;
+    --bgColor: gray;
 }
 *{
     margin: 0;
