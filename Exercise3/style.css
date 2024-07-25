@@ -48,7 +48,6 @@ nav ul{
     border-top: 0.1vw solid var(--secondaryColor);
 }
 .box{
-    margin: 0;
     background-color: var(--textColor);
     border-radius: 2vw;
     height: 80vh;
@@ -67,4 +66,10 @@ nav ul{
 
 .box2{
     right: 0vw;
+}
+.container{
+    padding: 0.5vw;
+    margin: 2vw;
+    background-color: var(--textColor);
+    border-radius: 2vw;
 }
