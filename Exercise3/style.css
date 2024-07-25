@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
 :root{
     --primaryColor: gray;
     --secondaryColor: whitesmoke;
@@ -27,7 +28,7 @@ nav{
     padding: 0;
     width: auto;
     position: sticky;
-    top: 0vh;
+    top: -0.01vh;
     left: 0vw;
     z-index: 10
     
@@ -47,29 +48,55 @@ nav ul{
     display: flex;
     border-top: 0.1vw solid var(--secondaryColor);
 }
+main{
+    position: relative;
+}
 .box{
     background-color: var(--textColor);
     border-radius: 2vw;
     height: 80vh;
     width: 40vw;
     display: inline-block; 
-    padding: 0.5vw;
+    padding: 1vw;
     margin: 2vw;
     overflow: hidden;
     position: relative;
     
 }
 .box1{
-    left: 0vw;
-    color: red;
-}
+    float: left;
+    background-color: antiquewhite;}
 
 .box2{
-    right: 0vw;
+    float: right;
+    background-color: aquamarine;
 }
 .container{
-    padding: 0.5vw;
+    padding: 6vw;
     margin: 2vw;
-    background-color: var(--textColor);
     border-radius: 2vw;
+    clear: both;
+    background-color: blueviolet;
+    color: var(--textColor);
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logoImg{
+    width: 10vw;
+    position: fixed;
+    z-index: 20;
+    bottom: 5vh;
+    right: 0vw;
+}
+footer{
+    background-color: var(--primaryColor);
+    height: 2vw;
+    padding: 1vw;
+}
+footer>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2vw;
 }
