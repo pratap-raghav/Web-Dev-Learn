@@ -1,12 +1,17 @@
+:root{
+    --primaryColor: gray;
+    --secondaryColor: whitesmoke;
+    --textColor: white;
+}
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: whitesmoke;
+    background-color: var(--secondaryColor);
 }
 header{
-    background-color: rgb(59,59,59);
+    background-color: var(--primaryColor);
     height: 2vw;
     padding: 1vw;
 }
@@ -17,7 +22,7 @@ header>img{
     height: 2vw;
 }
 nav{
-    background-color: rgb(59,59,59);
+    background-color: var(--primaryColor);
     margin: 0;
     padding: 0;
     width: auto;
@@ -31,23 +36,35 @@ nav ul li{
     list-style-position: inside;
     list-style: none;
     margin: 1.5vw;
-    color: white;
+    color: var(--textColor);
     /* border: 2px solid red; */
+}
+nav ul li a{
+    color: var(--textColor);
+    text-decoration: none;
 }
 nav ul{
     display: flex;
-    border-top: 0.1vw solid gray;
+    border-top: 0.1vw solid var(--secondaryColor);
 }
 .box{
     margin: 0;
-    height: 30vw;
-    width: auto;
-    background-color: white;
+    background-color: var(--textColor);
     border-radius: 2vw;
+    height: 80vh;
+    width: 40vw;
     display: inline-block; 
     padding: 0.5vw;
-    margin: 4vw;
-    box-shadow: 0 0 12px 1px gray;
+    margin: 2vw;
     overflow: hidden;
     position: relative;
+    
+}
+.box1{
+    left: 0vw;
+    color: red;
+}
+
+.box2{
+    right: 0vw;
 }
