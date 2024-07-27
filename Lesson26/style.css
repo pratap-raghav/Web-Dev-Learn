@@ -10,7 +10,9 @@
 }
 .container1>.item{
     border: 1px solid orange;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     /* align-items: center;
     justify-content: center; */
@@ -45,6 +47,9 @@
 }
 .container2>.item{
     border: 1px solid orange;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 700;
     font-size: 24px;
+}
