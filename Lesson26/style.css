@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    display: grid;
+    grid-template-areas: "nav nav nav nav"
+                         "main main main side"
+                         "footer footer footer footer";
+}
+.container1>.item{
+    border: 1px solid orange;
+    text-align: center;
+    color: white;
+    /* align-items: center;
+    justify-content: center; */
+    font-weight: 700;
+    font-size: 24px;
+}
+.navBar{
+    background-color: gray;
+    grid-area: nav;
+    height: 10vh;
+}
+.mainContent{
+    background-color: blueviolet;
+    height: 80vh;
+    grid-area: main;
+}
+.sideBar{
+    background-color:brown;
+    grid-area: side;
+}
+.footBar{
+    background-color: teal;
+    height: 10vh;
+    grid-area: footer;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: bisque;
+    height: 100vh;
+}
+.container2>.item{
+    border: 1px solid orange;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
