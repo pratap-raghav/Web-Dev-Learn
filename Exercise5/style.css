@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 header{
     background-color: gray;
@@ -18,7 +19,7 @@ nav{
     padding: 10px;
     background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     position: sticky;
     top: 0vh;
@@ -33,7 +34,7 @@ nav .navOption ul{
     list-style: none;
 }
 nav .navOption ul li{
-    font-family: "Poppins", sans-serif;
+    
     display: flex;
     align-items: center;
     margin: 15px;
@@ -42,24 +43,101 @@ nav .navOption ul li{
 nav .navOption ul li span{
     padding: 4px;
 }
-.download .contentHead{
+.downPage{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+    gap: 40px;
+    margin: 60px;
 }
-.download .contentHead img{
+.downPage .first{
+    font-size: 44px;
+    
+}
+.downPage .first img{
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.downPage .second{
+    max-width: 950px;
+    font-size: 22px;
+}
+.downPage .third button{
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #00b6d1;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: normal;
+    min-height: 48px;
+    min-width: 256px;
+    padding: 12px 20px;
+}
+.download .downHead{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 24px;
+}
+.download .downHead .logoImg img{
     height: 60px;
-    padding-right: 20px;
 }
-.downClick{
+.download .downHead .downName{
+    margin: 10px;
+}
+.download .downHead .downName small{
+    font-size: 60%;
+    font-weight: 200;
+}
+
+.download .downCard{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    gap: 20px;
+    /* border: 2px solid #00b6d1; */
+    gap: 30px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.dClick{
-    /* max-width: 302px; */
+.download .downCard .card{
+    display: flex;
+    flex-direction: column;
+    max-width: 302px;
+    row-gap: 15px;
     background-color: #f9f9f9;
     padding: 16px;
     text-align: center;
     border-radius: 5px;
+}
+.download .downCard .card .langHead{
+    font-size: 20px;
+    font-weight: 600;
+}
+.download .downCard .card .lang{
+    font-size: 12px;
+}
+.download .downCard .card .downButton a{
+    background-color: #5cb85c;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.download .downCard .card .sha256{
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.download .downCard .card .sha256 .check{
+    font-size: 8px;
+    word-break: break-word;
 }
