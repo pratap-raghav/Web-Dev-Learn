@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box img{
+    width: 1200px;
+}
+.ball img{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 50px;
+    /* animation: XBounce;
+    animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(0.64, 0.01, 0.79, 0.69);;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite; */
+    animation: XBounce 0.5s cubic-bezier(0.64, 0.01, 0.79, 0.69) 0s infinite alternate-reverse,
+                YTravel 4s linear infinite alternate-reverse,
+                BallRotate 0.3s linear infinite normal;
+    
+}
+
+@keyframes XBounce {
+    from{
+        top: 50px;
+    }
+    to{
+        top: 450px;
+    }
+}
+
+@keyframes YTravel {
+    from{
+        left: 0px;
+    }
+    to{
+        left: 1050px;
+    }
+}
+@keyframes BallRotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
