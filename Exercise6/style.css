@@ -32,10 +32,10 @@
 
 @keyframes YTravel {
     from{
-        left: 0px;
+        left: -30px;
     }
     to{
-        left: 1050px;
+        left: 1070px;
     }
 }
 @keyframes BallRotate {
