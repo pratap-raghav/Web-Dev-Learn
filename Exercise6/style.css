@@ -16,7 +16,7 @@
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite; */
     animation:  XBounce 0.5s cubic-bezier(0.64, 0.01, 0.79, 0.69) 0s infinite alternate-reverse,
-                YTravel 4s linear infinite alternate-reverse,
+                YTravel 1.7s linear infinite alternate-reverse,
                 BallRotate 0.3s linear infinite normal;
 }
 
