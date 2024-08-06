@@ -67,3 +67,6 @@ const sum = (a, b)=>{
     return a+b
 }
 console.log("Sum of", whole.join(", "),"-", whole.reduce(sum))
+
+var str = "RT Developers"
+console.log("Array form", str,"-", Array.from(str))
