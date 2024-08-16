@@ -32,6 +32,7 @@ body{
     display: flex;
     flex-direction: row;
     cursor: pointer;
+    gap: 8px;
 }
 .container>.box>.thumbnail{
     display: flex;
@@ -66,8 +67,12 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 4px;
 }
-
+.container>.box>.textData>.info>.dot{
+    color: var(--secTextColor);
+    font-size: 10px;
+}
 .container>.box>.textData>.info>.channel{
     color: var(--secTextColor);
     font-size: 10px;
@@ -81,4 +86,10 @@ body{
 .container>.box>.textData>.info>.uploadTime{
     color: var(--secTextColor);
     font-size: 10px;
+}
+
+.container>.box>svg{
+    color: #f1f1f1;
+    height: 5px;
+    width: 5px;
 }
