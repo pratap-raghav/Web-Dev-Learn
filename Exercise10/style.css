@@ -1,0 +1,84 @@
+:root{
+    --bgc: #0f0f0f;
+    --primary: #282828;
+    --textColor: #f1f1f1;
+    --secTextColor: #aaa;;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+body{
+    background-color: var(--bgc);
+}
+.container{
+    display: flex;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.container>.box{
+    /* padding: 5px; */
+    margin: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--primary);
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.container>.box>.thumbnail{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 160px;
+    height: 90px;
+    background: url('https://4kwallpapers.com/images/walls/thumbs_2t/11524.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 12px;
+    
+    
+
+}
+.container>.box>.thumbnail>.time{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    padding: 1px 4px;
+    margin-bottom: 6px;
+    margin-right: 6px;
+}
+
+.container>.box>.textData>.title{
+    color: var(--textColor);
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.container>.box>.textData>.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container>.box>.textData>.info>.channel{
+    color: var(--secTextColor);
+    font-size: 10px;
+}
+
+.container>.box>.textData>.info>.views{
+    color: var(--secTextColor);
+    font-size: 10px;
+}
+
+.container>.box>.textData>.info>.uploadTime{
+    color: var(--secTextColor);
+    font-size: 10px;
+}
